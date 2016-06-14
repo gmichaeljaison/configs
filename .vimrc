@@ -122,3 +122,10 @@ nnoremap <leader>s :mksession!<CR>
 " Toggle paste mode on and off
 map <leader>pp :setlocal paste!<cr>
 
+" Edit and Source vimrc
+nnoremap <leader>ev :vsp $MYVIMRC<CR>
+nnoremap <leader>sv :source $MYVIMRC<CR>
+
+" c-style code commenting
+nnoremap <leader>/ <Esc>^i// <Esc>
+
