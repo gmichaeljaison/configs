@@ -1,8 +1,16 @@
 " plugins used
 " 1. gundo - http://sjl.bitbucket.org/gundo.vim/
+" Color schemes
+" 1. monokai - https://github.com/sickill/vim-monokai
 
+" Enable pathogen to load all plugins
+execute pathogen#infect()
+execute pathogen#helptags()
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Enable NERDTree by default
+" autocmd vimenter * NERDTree
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -10,6 +18,7 @@
 filetype plugin on
 filetype indent on
 syntax enable           " enable syntax processing
+colorscheme monokai
 
 
 " -- Misc --
@@ -110,7 +119,7 @@ let mapleader = ","
 let g:mapleader = ","
 
 " Fast saving
-nmap <leader>w :w!<cr>
+nmap <leader>w :wa!<cr>
 " :W sudo saves the file. (useful for handling the permission-denied error)
 command! W w !sudo tee % > /dev/null
 " jk is escape
@@ -123,9 +132,16 @@ nnoremap <leader>s :mksession!<CR>
 map <leader>pp :setlocal paste!<cr>
 
 " Edit and Source vimrc
-nnoremap <leader>ev :vsp $MYVIMRC<CR>
-nnoremap <leader>sv :source $MYVIMRC<CR>
+nnoremap <leader>ve :tabe $MYVIMRC<CR>
+nnoremap <leader>vs :source $MYVIMRC<CR>
+
+" make <enter> insert newline in normal mode
+nnoremap <cr> i<cr><Esc>
+
+" NODETree toggle
+nnoremap <leader>n :NERDTreeToggle<CR>
 
 " c-style code commenting
-nnoremap <leader>/ <Esc>^i// <Esc>
+nnoremap <leader>/ I// <Esc>j
+nnoremap <leader>\ ^xxxj
 
