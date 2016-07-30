@@ -45,6 +45,8 @@ set cmdheight=2		" Height of the command bar
 " set foldcolumn=1	" Add a bit extra margin to the left
 set background=dark
 set mouse=a         " Enable mouse clicking and scrolling
+set splitright
+set splitbelow
 
 
 " -- Searching --
