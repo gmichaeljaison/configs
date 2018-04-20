@@ -1,0 +1,31 @@
+# Aliases
+# -------
+# General
+alias c='clear'
+
+alias la='ls -aG'
+alias ll='ls -lFG'
+alias ls='ls -FG'
+
+alias rm='rm -i'
+
+# Git
+alias gs='git status'
+alias gb='git branch'
+alias gd='git diff'
+alias gds='git diff --staged'
+
+# Load private aliases (if any)
+if [ -f ~/.bash_aliases ]; then
+    source ~/.bash_aliases
+fi
+
+# ----------------------------------------------------------------------
+
+# Colors of ls command
+export LSCOLORS=GxFxCxDxBxegedabagaced
+export CLICOLOR=1
+
+# Custom bash prompt via kirsle.net/wizards/ps1.html
+export PS1="\[$(tput bold)\]\[$(tput setaf 7)\]\u@\h \[$(tput setaf 2)\]\W\\$ \[$(tput sgr0)\]"
+
