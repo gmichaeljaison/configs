@@ -1,0 +1,28 @@
+{
+    "editor.fontSize": 14,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        100
+    ],
+    "editor.fontFamily": "'SF Mono', Menlo, Monaco, 'Courier New', monospace",
+    "workbench.statusBar.feedback.visible": false,
+    "breadcrumbs.enabled": true,
+    "terminal.integrated.lineHeight": 1.3,
+    "terminal.integrated.fontSize": 13,
+    "editor.snippetSuggestions": "top",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "diffEditor.renderSideBySide": true,
+    "cmake.buildDirectory": "${workspaceRoot}/build/macos",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.formatOnSave": true,
+    "terminal.integrated.scrollback": 3000,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.views.fileHistory.enabled": false,
+    "gitlens.views.lineHistory.enabled": false,
+    "gitlens.views.search.enabled": false
+}

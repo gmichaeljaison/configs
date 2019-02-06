@@ -1,0 +1,19 @@
+// Place your key bindings in this file to overwrite the defaultsauto[]
+[
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.action.tasks.runTask"
+    },
+    {
+        "key": "alt+cmd+b",
+        "command": "cmake.build"
+    },
+    {
+        "key": "f7",
+        "command": "-cmake.build"
+    },
+    {
+        "key": "alt+cmd+r",
+        "command": "workbench.action.tasks.reRunTask"
+    }
+]
