@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+
+# IDE files
+*~
+.swp
+.idea/
+.vscode/
+
+# Python
+*.pyc
+
+# Xcode
+*.xcscheme

@@ -1,0 +1,18 @@
+[user]
+	name = Michael Jaison Gnanasekar
+	email = gmichaeljaison@gmail.com
+[includeIf "gitdir:~/workspace/"]
+	path = ~/workspace/.gitconfig
+[core]
+	excludesfile = ~/.gitignore_global
+[alias]
+	last = log -1 HEAD
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	cpick = cherry-pick
+	pick = cherry-pick
+[pager]
+	branch = false
