@@ -14,8 +14,15 @@
     "terminal.integrated.scrollback": 3000,
     "git.confirmSync": false,
     "git.autofetch": true,
+    "python.formatting.provider": "yapf",
+    "python.unitTest.pyTestEnabled": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/*.egg-info": true
+    },
     "diffEditor.renderSideBySide": true,
     "cmake.buildDirectory": "${workspaceRoot}/build/macos",
     "gitlens.currentLine.enabled": false,
