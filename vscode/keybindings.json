@@ -7,5 +7,37 @@
     {
         "key": "alt+cmd+r",
         "command": "workbench.action.tasks.reRunTask"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "-workbench.action.lastEditorInGroup"
+    },
+    {
+        "key": "alt+cmd+right",
+        "command": "-workbench.action.nextEditor"
+    },
+    {
+        "key": "alt+cmd+left",
+        "command": "-workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+cmd+left",
+        "command": "-workbench.action.moveEditorToPreviousGroup"
+    },
+    {
+        "key": "ctrl+cmd+left",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "-workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+cmd+right",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "-workbench.action.navigateForward"
     }
 ]
