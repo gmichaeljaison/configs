@@ -25,7 +25,11 @@
 	},
 	"cout": {
 		"prefix": "cout",
-		"body": "std::cout << $0 << std::endl"
+		"body": "std::cout << $1 << std::endl;"
+	},
+	"cout_var": {
+		"prefix": "cout_var",
+		"body": "std::cout << \"$1 \" << $1 << std::endl;"
 	},
 	"docstring": {
 		"prefix": "doc",
